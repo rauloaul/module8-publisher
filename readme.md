@@ -12,3 +12,6 @@ The URL `guest:guest@localhost:5672` is the connection URL to the RabbitMQ serve
 
 - `guest:guest` is the username and password for the RabbitMQ server.
 - `localhost:5672` is the hostname and port number of the RabbitMQ server.
+
+## Running RabbitMQ Server
+![alt text](images/image.png)
