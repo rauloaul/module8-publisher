@@ -32,3 +32,5 @@ The URL `guest:guest@localhost:5672` is the connection URL to the RabbitMQ serve
 ### Explanation :
 
 The spike on the "message rates" chart is caused by the publisher program sending data to the message broker. The spike occurs when the publisher program sends data to the message broker. The spike represents the number of messages sent by the publisher program to the message broker.
+
+clarification : I accidentally uncommented `// thread::sleep(ten_millis);` on the first run, so I had to revised the screenshot (yes, The initial commit main.rs on subscriber had the sleep uncommented)
