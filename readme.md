@@ -15,3 +15,13 @@ The URL `guest:guest@localhost:5672` is the connection URL to the RabbitMQ serve
 
 ## Running RabbitMQ Server
 ![alt text](images/image.png)
+
+## Sending and processing event
+![alt text](images/image2.png)
+
+### Explanation :
+- At first, I run `cargo run` on subscriber's directory, and the subscriber program will wait for the data from the message broker.
+
+- After that, when I run `cargo run` on publisher's directory, the publisher program will send 5 data to the message broker. 
+
+- Then, the subscriber program will receive the data from the message broker and process the data.
